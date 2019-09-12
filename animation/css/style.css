@@ -1,0 +1,554 @@
+html, body {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+h6{
+    position: relative;
+    padding-top: 20%;
+    text-align: center;
+    font-size: 100px;
+}
+
+#openingtitle{
+    position: absolute;
+    z-index: 30;
+    top: 0%;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+p{
+    text-align: center;
+    width:20%;
+    font-size: 150%;
+}
+
+.text{
+    position: relative;
+	background: rgba(255, 255, 255, .9);
+	border-radius: 25px;
+    padding:20px;
+	margin-left:auto;
+    margin-right:auto;
+    z-index: 9999999;
+}
+
+#text{
+    position: relative;
+	top:50%;
+	left: -20%;
+}
+
+.block{
+    height:100%;
+    width:100%;
+}
+
+#block1,#block4,#block11,#block12,#block18,#block25{
+    height:200%;
+}
+
+#block2,#block3,#block5,#block6,#block7,#block8,#block9,#block10,#block13,#block14,#block15,#block16,#block17,#block19,#block20,#block21,#block22,#block23,#block24,#block26,#block27,#block28{
+    height:150%;
+}
+
+#street{
+    position:fixed;
+    z-index: 26;
+    top:100%;
+	width:100vw;
+    top:0%;
+}
+
+#bar{
+    position:fixed;
+    z-index: 27;
+    opacity: 0;
+    top:15%;
+	right:1%;
+    height:100%;
+}
+    
+#butchersign{
+    position:fixed;
+    z-index: 27;
+    opacity: 0;
+    top:0%;
+	left:0%;
+    height:100%;
+}
+    
+#drugstore{
+    position:fixed;
+    z-index: 27;
+    opacity: 0;
+    top:11%;
+	left:8%;
+    height:100%;
+}
+
+#r1{
+    position:fixed;
+    z-index: 27;
+    opacity: 0;
+    top:4%;
+	left:4%;
+    height:100%;
+}
+
+#r2{
+    position:fixed;
+    z-index: 27;
+    opacity: 0;
+    top:9%;
+	right:0.2%;
+    height:100%;
+}
+
+#r4{
+    position:fixed;
+    z-index: 27;
+    opacity: 0;
+    top:10%;
+	right:2%;
+    height:100%;
+}
+
+#r3{
+    position:fixed;
+    z-index: 27;
+    opacity: 0;
+    top:6.5%;
+	left:6.5%;
+    height:100%;
+}
+
+#r5{
+    position:fixed;
+    z-index: 27;
+    opacity: 0;
+    top:4%;
+	left:5%;
+    height: 105%;
+}
+
+#bckgrnd{
+	position:fixed;
+	z-index: 28;
+    opacity: 1;
+    top: 100%;
+	width:100vw;
+	left:0%;
+}
+
+#crowdback{
+    position:fixed;
+    top: 100%;
+	z-index: 29;
+	width:100vw;
+	left:0%;
+}
+
+#crowdmid{
+    position:fixed;
+    top: 100%;
+	z-index: 30;
+	width:100vw;
+	left:0%;
+}
+
+#crowdfront{
+    position:fixed;
+    top: 100%;
+	z-index:31;
+	width:100vw;
+	left:0%;
+}
+
+#smoke1{
+	position:fixed;
+	z-index: 32;
+	opacity: 0;
+	width:100vw;
+	left:0%;
+}
+
+#smoke2{
+	position:fixed;
+	z-index: 32;
+	opacity: 0;
+	width:100vw;
+	left:0%;
+}
+
+#s1{
+    position:fixed;
+    z-index: 32;
+	opacity: 0;
+	top:14%;
+	right:3%;
+	height:100%;
+}
+
+#s2{
+    position:fixed;
+    z-index: 32;
+	opacity: 0;
+	top:9%;
+	left:8%;
+	height:100%;
+}
+
+#s3{
+    position:fixed;
+    z-index: 32;
+	opacity: 0;
+	top:6%;
+	left:6%;
+	height: 105%;
+}
+
+#f1{
+    position:fixed;
+    z-index: 32;
+	opacity: 0;
+	top:6%;
+	left:6%;
+	height: 105%;
+}
+
+#f2{
+    position:fixed;
+    z-index: 32;
+	opacity: 0;
+	top:6%;
+	left:6%;
+	height: 105%;
+}
+
+#bricks{
+    position: fixed;
+    top: 100%;
+    width: 100%;
+    z-index: 32;
+}
+
+#climbing{
+    position: fixed;
+    width: 100%;
+    z-index: 33;
+    opacity: 0;
+    top: 50%;
+}
+
+#ladder{
+    position: fixed;
+    width: 100%;
+    z-index: 32;
+    opacity: 0;
+    top: 0%;
+}
+
+#wallbg{
+    position: fixed;
+    top: 0%;
+    opacity: 0;
+    width: 100%;
+}
+
+#chinesepeople{
+    position: fixed;
+    width: 100%;
+    z-index: 32;
+    opacity: 0;
+    top: 0%;
+}
+
+#wallpeople{
+    position: fixed;
+    width: 100%;
+    z-index: 32;
+    top: 100%;
+}
+
+#dad{
+    position:fixed;
+    z-index: 37;
+    opacity: 1;
+	top:100%;
+	left:45%;
+	height:100%;
+}
+
+#lawyer{
+    position:fixed;
+    z-index: 33;
+    opacity: 1;
+	top:15%;
+	height:89%;
+	left:-30%;
+}
+
+#court{
+    position:fixed;
+    z-index: 33;
+	top: 100%;
+	width:100vw;
+	left:0%;
+}
+
+#gates{
+    position: fixed;
+    z-index: 33;
+	top: 100%;
+	height: 100%;
+	width: 105%;
+}
+
+#streettransform{
+    position:fixed;
+    z-index: 34;
+    opacity: 0;
+	width:100vw;
+    top:100%;
+}
+
+#bartran{
+    position:fixed;
+    z-index: 35;
+    opacity: 0;
+    top:15%;
+	right:1%;
+    height:100%;
+}
+    
+#butchersigntran{
+    position:fixed;
+    z-index: 35;
+    opacity: 0;
+    top:0%;
+	left:0%;
+    height:100%;
+}
+    
+#drugstoretran{
+    position:fixed;
+    z-index: 35;
+    opacity: 0;
+    top:11%;
+	left:8%;
+    height:100%;
+}
+
+#r1tran{
+    position:fixed;
+    z-index: 35;
+    opacity: 0;
+    top:4%;
+	left:4%;
+    height:100%;
+}
+
+#r2tran{
+    position:fixed;
+    z-index: 35;
+    opacity: 0;
+    top:9%;
+	right:0.2%;
+    height:100%;
+}
+
+#r4tran{
+    position:fixed;
+    z-index: 35;
+    opacity: 0;
+    top:10%;
+	right:2%;
+    height:100%;
+}
+
+#r3tran{
+    position:fixed;
+    z-index: 35;
+    opacity: 0;
+    top:6.5%;
+	left:6.5%;
+    height:100%;
+}
+
+#r5tran{
+    position:fixed;
+    z-index: 35;
+    opacity: 0;
+    top:4%;
+	left:5%;
+    height: 105%;
+}
+
+
+#restbg{
+    position: fixed;
+    z-index: 35;
+    top: 100%;
+    width: 100%;
+}
+
+#resttables{
+    position: fixed;
+    z-index: 35;
+    opacity: 0;
+    width: 100%;
+}
+
+#restchairs{
+    position: fixed;
+    z-index: 36;
+    opacity: 0;
+    width: 100%;
+}
+
+#cashier{
+    position:fixed;
+    height: 107%;
+    z-index: 37;
+    top:100%;
+	left:-10%;
+}
+
+#cook{
+    position:fixed;
+    z-index: 37;
+    top:100%;
+    right: -5%;
+    height: 107%;
+}
+
+#waiter{
+    position:fixed;
+    z-index: 37;
+    top:100%;
+    left: 15%;
+    height: 100%;
+}
+
+#dadwalkfront{
+    position:fixed;
+    z-index: 39;
+	top:13%;
+	left:17%;
+    height:70%;
+    opacity: 0;
+}
+
+#butcher{
+    position:fixed;
+    z-index: 39;
+	top:15%;
+	height:100%;
+	right:-100%;
+}
+
+#introom{
+    position:fixed;
+    z-index: 38;
+    top: 100%;
+	width:100vw;
+	left:0%;
+}
+
+#boat{
+    position:fixed;
+    z-index: 48;
+	top: 100%;
+	width:100%;
+	left:0%;
+}
+
+#boat2{
+    position:fixed;
+    z-index: 51;
+	top: 100%;
+	width:100%;
+	left:0%;
+}
+
+#boatdad{
+    position:fixed;
+    left: 45%;
+    z-index: 100;
+    opacity: 0;
+    height: 100%;
+}
+
+#mom{
+    position:fixed;
+    right: -2%;
+    z-index: 100;
+    opacity: 0;
+    height: 100%;
+}
+
+#son{
+    position:fixed;
+    left: 19%;
+    z-index: 100;
+    opacity: 0;
+    height: 100%;
+}
+
+#home{
+    position:fixed;
+    z-index: 50;
+	top: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+#restbg2{
+    position: fixed;
+    z-index: 60;
+    top: 100%;
+    width: 100%;
+}
+
+#resttables2{
+    position: fixed;
+    z-index: 61;
+    opacity: 0;
+    width: 100%;
+}
+
+#restchairs2{
+    position: fixed;
+    z-index: 62;
+    opacity: 0;
+    width: 100%;
+}
+
+#cashier2{
+    position:fixed;
+    height: 107%;
+    z-index: 63;
+    top:100%;
+	left:-10%;
+}
+
+#cook2{
+    position:fixed;
+    z-index: 63;
+    top:100%;
+    right: -5%;
+    height: 107%;
+}
+
+#waiter2{
+    position:fixed;
+    z-index: 63;
+    top:100%;
+    left: 15%;
+    height: 100%;
+}

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+   <meta charset="utf-8">
+   <title>Eating Globally Animation Compliation</title>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/ScrollMagic.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/animation.gsap.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.3/plugins/debug.addIndicators.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+   <img class="images" id="street" src="images/street/streetempty.jpg">
+   <img class="images" id="streettransform" src="images/street/streetempty.jpg">
+   <img class="images" id="bar" src="images/street/signbilliesbar.png">
+   <img class="images" id="drugstore" src="images/street/signdrugstore.png">
+   <img class="images" id="butchersign" src="images/street/signbutcher.png">
+   <img class="images" id="r1" src="images/street/signneweastern.png">
+   <img class="images" id="r2" src="images/street/signcanton.png">
+   <img class="images" id="r3" src="images/street/signchopsuey.png">
+   <img class="images" id="r4" src="images/street/signrathskeller.png">
+   <img class="images" id="r5" src="images/street/signshanghai.png">
+   <img class="images" id="bartran" src="images/street/signbilliesbar.png">
+   <img class="images" id="drugstoretran" src="images/street/signdrugstore.png">
+   <img class="images" id="butchersigntran" src="images/street/signbutcher.png">
+   <img class="images" id="r1tran" src="images/street/signneweastern.png">
+   <img class="images" id="r2tran" src="images/street/signcanton.png">
+   <img class="images" id="r3tran" src="images/street/signchopsuey.png">
+   <img class="images" id="r4tran" src="images/street/signrathskeller.png">
+   <img class="images" id="r5tran" src="images/street/signshanghai.png">
+   <img class="images" id="bckgrnd" src="images/riot/riotbg.png">
+   <img class="images" id="crowdfront" src="images/riot/riotcrowdfront.png">
+   <img class="images" id="crowdmid" src="images/riot/riotcrowdmid.png">
+   <img class="images" id="crowdback" src="images/riot/riotcrowdback.png">
+   <img class="images" id="f1" src="images/riot/riotfist01.png">
+   <img class="images" id="f2" src="images/riot/riotfist02.png">
+   <img class="images" id="s1" src="images/riot/riotsign01.png">
+   <img class="images" id="s2" src="images/riot/riotsign02.png">
+   <img class="images" id="s3" src="images/riot/riotsign03.png">
+   <img class="images" id="smoke1" src="images/riot/riotsmoke01.png">
+   <img class="images" id="smoke2" src="images/riot/riotsmoke02.png">
+   <img class="images" id="bricks" src="images/wall/wallbricks.png">
+   <img class="images" id="climbing" src="images/wall/climbing.png">
+   <img class="images" id="ladder" src="images/wall/ladder.png">
+   <img class="images" id="wallbg" src="images/wall/skybg.png">
+   <img class="images" id="chinesepeople" src="images/wall/wallchina.png">
+   <img class="images" id="wallpeople" src="images/wall/wallpeople.png">
+   <img class="images" id="court" src="images/court/court.png">
+   <img class="images" id="dad" src="images/court/dad.png">
+   <img class="images" id="lawyer" src="images/court/lawyer.png">
+   <img class="images" id="gates" src="images/court/gates.png">
+   <img class="images" id="restbg" src="images/restaurant/restaurant.jpg">
+   <img class="images" id="restchairs" src="images/restaurant/chairs.png">
+   <img class="images" id="resttables" src="images/restaurant/tables.png">
+   <img class="images" id="cashier" src="images/restaurant/cashier.png">
+   <img class="images" id="cook" src="images/restaurant/cook.png">
+   <img class="images" id="waiter" src="images/restaurant/waiter.png">
+   <img class="images" id="introom" src="images/interrogation/room.jpg">
+   <img class="images" id="dadwalkfront" src="images/interrogation/dad_front.png">
+   <img class="images" id="butcher" src="images/interrogation/butcher.png">
+   <img class="images" id="boat" src="images/boat/boat.jpg">
+   <img class="images" id="boat2" src="images/boat/boat.jpg">
+   <img class="images" id="boatdad" src="images/court/dad.png">
+   <img class="images" id="mom" src="images/home/mom.png">
+   <img class="images" id="son" src="images/home/son.png">
+   <img class="images" id="home" src="images/home/home.png">
+   <img class="images" id="restbg2" src="images/restaurant/restaurant.jpg">
+   <img class="images" id="restchairs2" src="images/restaurant/chairs.png">
+   <img class="images" id="resttables2" src="images/restaurant/tables.png">
+   <img class="images" id="cashier2" src="images/restaurant/cashier.png">
+   <img class="images" id="cook2" src="images/restaurant/cook.png">
+   <img class="images" id="waiter2" src="images/restaurant/waiter.png">
+   <div class="block" id="block">
+      <h6 id="openingtitle">The Story</h6>
+   </div>
+   <div class="block" id="block1">
+      <p class="text" id="text">Chinese restaurants serve a variety of budgets and appetites, from fast-food storefronts
+         to palatial banquet halls.China is a large country and its many regional specialties are also represented. </p>
+   </div>
+   <div class="block" id="block2">
+      <p class="text" id="text">New York City alone has 2500 Chinese restaurants, plus countless other Chinese-inspired
+         eateries.</p>
+   </div>
+   <div class="block" id="block3">
+      <p class="text" id="text">The history of how Chinese food became favored and Chinese restaurants so numerous is
+         filled with surprising twists and turns, as well as unexpected actors.</p>
+   </div>
+   <div class="block" id="block4">
+      <p class="text" id="text">In the 1870s, masses of white men mobilized to halt Chinese immigration.</p>
+   </div>
+   <div class="block" id="block5">
+      <p class="text" id="text">They carried incredible political power. Women could not vote and black men were
+         prevented at the ballot box from casting their opinions.</p>
+   </div>
+   <div class="block" id="block6">
+      <p class="text" id="text">Politicians headed their demands, passing what would become the Chinese Exclusion Act of
+         1882.</p>
+   </div>
+   <div class="block" id="block7">
+      <p class="text" id="text">It stopped Chinese laborers from coming into the country and those already here from
+         naturalizing.</p>
+   </div>
+   <div class="block" id="block8">
+      <p class="text" id="text">There were loopholes, however. Special provisions allowed Chinese businessmen to enter
+         and to sponsor the emigration of wives and children. These were known as “merchant exemptions.”</p>
+   </div>
+   <div class="block" id="block9">
+      <p class="text" id="text">For a time Chinese restaurant owners counted as “laborers,” whose immigration
+         opportunities had been eliminated by the Chinese Exclusion Act of 1882.</p>
+   </div>
+   <div class="block" id="block10">
+      <p class="text" id="text">Restaurant owners fought long and hard through the courts to be counted as merchants.
+      </p>
+   </div>
+   <div class="block" id="block11">
+      <p class="text" id="text">The fortunes of restaurant owners changed. In 1915, a federal appeals court judge in New
+         York finally affirmed that restaurants owners qualified for merchant exemption. This case set a legal precedent
+         that prevailed until Chinese Exclusion was repealed.</p>
+   </div>
+   <div class="block" id="block12">
+      <p class="text" id="text">The Chinese Restaurant Database is based on the efforts of the Chinese to live, work,
+         and travel while Chinese Exclusion remained in force (1882-1943). Dozens of researchers have scrutinized
+         immigration files to present, here and now, the Chinese restaurant industry.</p>
+   </div>
+   <div class="block" id="block13">
+      <p class="text" id="text">Chinese laborers opened restaurants to expand their immigration opportunities.</p>
+   </div>
+   <div class="block" id="block14">
+      <p class="text" id="text">In 1919, the number of restaurants spiked. World War I had just ended and the American
+         economy was strong.</p>
+   </div>
+   <div class="block" id="block15">
+      <p class="text" id="text">Most Chinese laborers had come to the United States as young adults. Typically,
+         relatives who had exemption statuses sponsored them.</p>
+   </div>
+   <div class="block" id="block16">
+      <p class="text" id="text">Many aspired to go into business for themselves, instead of working for others. Opening
+         a restaurant called for more capital than most laborers had. Banks refused them loans.</p>
+   </div>
+   <div class="block" id="block17">
+      <p class="text" id="text">They found a solution--pool resources. They operated restaurants as partnerships.
+         Typically, four men invested equally and agreed to run the restaurant together.</p>
+   </div>
+   <div class="block" id="block18">
+      <p class="text" id="text">Often times they needed to fundraise from friends and family. They sold shares, which
+         paid these silent investors dividends at the end of the year. Most restaurants had $20,000-$30,000 in starting
+         capital, worth nearly half a million today.</p>
+   </div>
+   <div class="block" id="block19">
+      <p class="text" id="text">The restaurant soon paid off for partners wishing to reunite with family in China</p>
+   </div>
+   <div class="block" id="block20">
+      <p class="text" id="text">After a year, one partner was eligible for merchant exemption.</p>
+   </div>
+   <div class="block" id="block21">
+      <p class="text" id="text">In the immigration interview, he told officers about the restaurants. Who his partners
+         were. What were his duties. He detailed the finances as well.</p>
+   </div>
+   <div class="block" id="block22">
+      <p class="text" id="text">Witnesses showed up to support his case. The law required two non-Chinese individuals in
+         merchant applications. Restaurant owners typically called on vendors for help.</p>
+   </div>
+   <div class="block" id="block23">
+      <p class="text" id="text">With papers in hand, Chinese restaurant owners went to China. They had been away a long
+         time. Chinese laborers had to save for many years to become partners in restaurants.</p>
+   </div>
+   <div class="block" id="block24">
+      <p class="text" id="text">They intended to reunite with their family. Many restaurant owners left behind wife and
+         children in their hometowns.</p>
+   </div>
+   <div class="block" id="block25">
+      <p class="text" id="text">These were joyous occasions. Everyone in their hometowns celebrated these return visits.
+         Chinese restaurant owners often stayed for a year, before returning to the United States.</p>
+   </div>
+   <div class="block" id="block26">
+      <p class="text" id="text">He often returned to with a young son to teach the restaurant business.</p>
+   </div>
+   <div class="block" id="block27">
+      <p class="text" id="text">This is how Chinese immigrants were able to grow their businesses and communities.</p>
+   </div>
+   <div class="block" id="block28">
+      <p class="text" id="text">End.</p>
+   </div>
+
+   <script src="script.js"></script>
+
+</body>
+
+</html>
