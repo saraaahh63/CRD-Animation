@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+#title{
+	position:absolute;
+	font-size: 80px;
+	width: 100%;
+	top: 30%;
+}
+
+p{
+    text-align: center;
+    width:70%;
+    font-size: 160%;
+}
+
+.text{
+    position: relative;
+    color:black;
+	background: white;
+	border-radius: 0px;
+    padding:20px;
+	margin-left:auto;
+    margin-right:auto;
+    z-index: 9999999;
+}
+
+#text{
+    position: relative;
+	top:50%;
+	left: -50px;
+}
+
+.block{
+    height:100%;
+    width:100%;
+}
+
+#block1,#block2,#block3{
+    height: 150%
+}
+
+#dad{
+    position:fixed;
+    z-index: 39;
+	top:13%;
+	left:80%;
+    height:100%;
+    opacity: 0;
+}
+
+#bg{
+    position: fixed;
+    z-index: 35;
+    top: 100%;
+    width: 100%;
+}
+
+#table{
+    position: fixed;
+    z-index: 35;
+    opacity: 0;
+    width: 100%;
+}
+
+#chair{
+    position: fixed;
+    z-index: 36;
+    opacity: 0;
+    width: 100%;
+}
+
+#cook{
+    position:fixed;
+    z-index: 35;
+    top:100%;
+    right: 800px;
+    height: 85%;
+}
+
+#waiter{
+    position:fixed;
+    height: 107%;
+    z-index: 37;
+    top:100%;
+	left:-12%;
+}
